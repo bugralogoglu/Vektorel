@@ -1,0 +1,44 @@
+package Ulasim2;
+
+public class Islem {
+	public static void main(String[] args) {
+		koyYolu koyyolu = new koyYolu();
+		Otoyol otoyol = new Otoyol();
+		int a[] = new int[3];
+		
+		otoyol.setIsmi("E5");
+		otoyol.setSeritSayi(5);
+		otoyol.setTipi("Guzel yol");
+		
+		
+		
+		koyyolu.setIsmi("Corum yolu");
+		koyyolu.setSeritSayi(2);
+		koyyolu.setTipi("Çirkin yol");
+		
+		
+		System.out.println("Otoyol: ");
+		System.out.print("Hýz sýnýrý: ");
+		otoyol.hizSiniri();
+		System.out.print("Yol ismi: ");
+		System.out.println(otoyol.getIsmi());
+		System.out.print("Þerit sayýsý: ");
+		System.out.println(otoyol.getSeritSayi());
+		System.out.print("Yol tipi: ");
+		System.out.println(otoyol.getTipi());
+		
+		System.out.println();
+		System.out.println("Köy Yolu: ");
+		System.out.print("Hýz sýnýrý: ");
+		koyyolu.hizSiniri();
+		System.out.print("Yol ismi: ");
+		System.out.println(koyyolu.getIsmi());
+		System.out.print("Þerit sayýsý: ");
+		System.out.println(koyyolu.getSeritSayi());
+		System.out.print("Yol tipi: ");
+		System.out.println(koyyolu.getTipi());
+		
+		
+		
+	}
+}

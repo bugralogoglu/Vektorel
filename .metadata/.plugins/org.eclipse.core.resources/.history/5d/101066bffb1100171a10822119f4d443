@@ -1,0 +1,11 @@
+package Ulasim2;
+
+public class Yol {
+	String ismi;
+	String tipi;
+	int seritSayi;
+
+	void hizSiniri() {
+		System.out.println(80);
+	}
+}

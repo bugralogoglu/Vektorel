@@ -1,0 +1,8 @@
+package Ulasim2;
+
+public class Otoyol extends Yol {
+	@Override
+	void hizSiniri() {
+		System.out.println();
+	}
+}

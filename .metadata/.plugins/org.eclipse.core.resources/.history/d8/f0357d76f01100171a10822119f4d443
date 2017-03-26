@@ -1,0 +1,14 @@
+package KalitimMuhendis;
+
+public class Muhendis {
+	void mat() {
+		System.out.println("Mat bilgim çok iyi");
+	}
+	private String diploma;
+	public String getDiploma() {
+		return diploma;
+	}
+	public void setDiploma(String diploma) {
+		this.diploma = diploma;
+	}
+}

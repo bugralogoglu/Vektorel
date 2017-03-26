@@ -1,0 +1,6 @@
+package KalitimMuhendis;
+
+public class Muhendis {
+public void mat(){
+System.out.println("Mat bilgim çok iyi");
+}

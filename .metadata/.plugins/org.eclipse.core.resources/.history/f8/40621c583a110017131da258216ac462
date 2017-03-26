@@ -1,0 +1,8 @@
+package HayvanlarAlemi;
+
+public class Omurgasiz {
+void omurgasizim(){
+	System.out.println("Omurgasýzýn tekiyim");
+}
+
+}

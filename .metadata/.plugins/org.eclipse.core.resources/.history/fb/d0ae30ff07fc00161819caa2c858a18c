@@ -1,0 +1,34 @@
+package Array;
+
+import java.util.Scanner;
+
+public class OrnekArray {
+
+	public static Scanner oku;
+
+	public static double[] doubleDiziOlustur() {
+		double dizi[] = new double[5];
+		for (int i = 0; i < dizi.length; i++) {
+			dizi[i] = oku.nextDouble();
+		}
+		return dizi;
+
+	}
+
+	public static String stringDonustur(double a[]){
+		String b = "";
+		for (int i = 0; i<a.length;i++){
+			b =  b + a[i] + "-";
+		}
+		return b;
+	}
+	public static void main(String[] args) {
+		oku = new Scanner(System.in);
+		double[] a = doubleDiziOlustur();
+		
+		System.out.println(stringDonustur(a));
+	}
+
+	
+
+}

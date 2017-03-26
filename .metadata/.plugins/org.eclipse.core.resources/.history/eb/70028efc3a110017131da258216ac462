@@ -1,0 +1,11 @@
+package HayvanlarAlemi;
+
+public class Goril extends Memeli {
+	void ziplama() {
+		System.out.println("Zýp zýp zýplýyorum");
+	}
+	
+	void 100metreziplama(){
+		System.out.println("100 METRE ZIPLIYOM");
+	}
+}

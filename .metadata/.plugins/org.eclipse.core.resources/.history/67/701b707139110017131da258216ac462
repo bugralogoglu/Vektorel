@@ -1,0 +1,8 @@
+package HayvanlarAlemi;
+
+public class Omurgalý extends hAlemi {
+	void ureme(){
+		System.out.println("Ürüyorum");
+	}
+	
+}

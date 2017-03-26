@@ -1,0 +1,20 @@
+package Ulasim2;
+
+public class Islem {
+	public static void main(String[] args) {
+		koyYolu koyyolu = new koyYolu();
+		Otoyol otoyol = new Otoyol();
+		
+		otoyol.hizSiniri();
+		otoyol.setIsmi("E5");
+		otoyol.setSeritSayi(5);
+		otoyol.setTipi("Guzel yol");
+		
+		
+		koyyolu.hizSiniri();
+		koyyolu.setIsmi("Corum yolu");
+		koyyolu.setSeritSayi(2);
+		koyyolu.setTipi("Çirkin yol");
+		
+	}
+}

@@ -1,0 +1,15 @@
+package Fonksiyon;
+import java.util.Scanner;
+public class Faktoriyel {
+public static void faktoriyel(int a){
+	for (int i = 1; i<=fak;i++){
+		i*=i;
+	}
+}
+public static void main(String[] args) {
+	Scanner oku = new Scanner (System.in);
+	int fak = oku.nextInt();
+	faktoriyel(fak);
+}
+
+}

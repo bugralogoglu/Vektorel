@@ -1,0 +1,7 @@
+package HayvanlarAlemi;
+
+public class Maymun {
+void ellimetreziplama(){
+	System.out.println("Elli metre zýplýyorum");
+}
+}

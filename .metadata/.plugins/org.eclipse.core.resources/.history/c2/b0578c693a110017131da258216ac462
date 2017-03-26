@@ -1,0 +1,18 @@
+package HayvanlarAlemi;
+
+public class Islem {
+	public static void main(String[] args) {
+		Goril goril = new Goril();
+System.out.println("Omurgalýyým");
+		goril.ureme();
+		goril.iskelet();
+		goril.hareket();
+		
+System.out.println("Omurgasýzým");
+	Yýlan yýlan = new Yýlan();
+		yýlan.surungen();
+		yýlan.omurgasizim();
+		yýlan.ureme();
+		
+	}
+}

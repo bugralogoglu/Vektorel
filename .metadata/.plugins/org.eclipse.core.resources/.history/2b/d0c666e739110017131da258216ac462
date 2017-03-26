@@ -1,0 +1,11 @@
+package HayvanlarAlemi;
+
+public class Islem {
+public static void main(String[] args) {
+	Goril goril = new Goril();
+	
+	goril.ureme();
+	goril.iskelet();
+	goril.hareket();
+}
+}

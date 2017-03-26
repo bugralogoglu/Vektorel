@@ -1,0 +1,39 @@
+package SporPackage;
+
+public class Islem {
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Spor basketbol = new Spor();
+		basketbol.setTuru("Basketbol");
+		Spor futbol = new Spor();
+		futbol.setTuru("Futbol");
+		Spor voleybol = new Spor();
+		voleybol.setTuru("Voleybol");
+		
+		
+		Spor[] arraySpor = new Spor[3];
+		arraySpor[0] = basketbol;
+		arraySpor[1] = futbol;
+		arraySpor[2] = voleybol;
+		
+		
+		EkranYazdir(arraySpor);
+	
+	}
+	
+	
+	static void EkranYazdir(Spor[] arraySpor){
+		for(int i = 0; i<arraySpor.length;i++){
+			System.out.println(arraySpor[i].getTuru());
+		}	
+	}
+	}
+
+	
+	
+
+

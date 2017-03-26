@@ -1,0 +1,10 @@
+package Array;
+
+public class TekBoyut {
+public static void main(String[] args) {
+	int[] dizi = new int[5];
+	dizi[2] = 5;
+	System.out.println(dizi[2]);
+	
+}
+}

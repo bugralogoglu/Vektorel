@@ -1,0 +1,6 @@
+package SporPackage;
+
+public class Spor {
+String turu;
+
+}

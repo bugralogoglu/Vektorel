@@ -1,0 +1,7 @@
+package Ulasim2;
+
+public class Yol {
+String ismi;
+String tipi;
+int seritSayi;
+}

@@ -1,0 +1,11 @@
+package SporPackage;
+
+public class Islem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Spor[] sporcu = new []Spor();
+		
+	}
+
+}

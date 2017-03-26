@@ -1,0 +1,20 @@
+package KalitimMuhendis;
+
+public class Islem {
+
+
+	
+	public static void main(String[] args) {
+		InsaatMuhendisi imuhendis = new InsaatMuhendisi();
+		BilgisayarMuhendisi bmuhendis = new BilgisayarMuhendisi();
+		
+		bmuhendis.mat();
+		bmuhendis.yazilim();
+		imuhendis.insaatbil();
+		imuhendis.mat();
+		imuhendis.setDiploma("Gazi üniversitesi");
+		System.out.println(bmuhendis.getDiploma();
+		System.out.println(imuhendis.getDiploma();
+	}
+	
+}

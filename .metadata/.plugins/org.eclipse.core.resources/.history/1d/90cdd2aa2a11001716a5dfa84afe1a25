@@ -1,0 +1,32 @@
+package SporPackage;
+
+public class Islem {
+	void EkranYazdir(arraySpor[i]){
+		System.out.println(arraySpor);
+	}
+	
+	public static void main(String[] args) {
+		
+		Spor basketbol = new Spor();
+		basketbol.turu = "Basketbol";
+		Spor futbol = new Spor();
+		futbol.turu = "Futbol";
+		Spor voleybol = new Spor();
+		voleybol.turu = "Voleybol";
+		
+		
+		Spor[] arraySpor = new Spor[2];
+		arraySpor[0] = basketbol;
+		arraySpor[1] = futbol;
+		arraySpor[2] = voleybol;
+		
+		for(int i = 0; i<=2;i++){
+			EkranYazdir(arraySpor[i]);
+		}
+	
+	}
+
+	
+	
+
+}
