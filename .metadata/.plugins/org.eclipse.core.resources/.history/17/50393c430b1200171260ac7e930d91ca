@@ -1,0 +1,7 @@
+package Yazilim;
+
+public class yazilim {
+	void dongu(){
+		System.out.println("Yazilim dongu");
+	}
+}
